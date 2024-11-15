@@ -1,0 +1,61 @@
+messages:
+- id: msg001
+  language: en
+  text: Hello World!
+- id: msg002
+  language: es
+  text: ¡Hola Mundo!
+- id: msg003
+  language: fr
+  text: Bonjour le monde!
+- id: msg004
+  language: de
+  text: Hallo Welt!
+- id: msg005
+  language: ja
+  text: こんにちは世界！
+- id: msg006
+  language: ko
+  text: 안녕하세요 세상!
+- id: msg007
+  language: ru
+  text: Привет, мир!
+- id: msg008
+  language: it
+  text: Ciao mondo!
+- id: msg009
+  language: pt
+  text: Olá Mundo!
+- id: msg010
+  language: zh
+  text: 你好，世界！
+- id: msg011
+  language: sv
+  text: Hej världen!
+- id: msg012
+  language: ar
+  text: مرحبا بالعالم!
+- id: msg013
+  language: nl
+  text: Hallo Wereld!
+- id: msg014
+  language: vi
+  text: Xin chào thế giới!
+- id: msg015
+  language: el
+  text: Γειά σου Κόσμε!
+- id: msg016
+  language: uk
+  text: Привіт, світ!
+- id: msg017
+  language: hi
+  text: नमस्ते दुनिया!
+- id: msg018
+  language: tr
+  text: Merhaba Dünya!
+- id: msg019
+  language: ga
+  text: Dia duit, a dhomhain!
+- id: msg020
+  language: th
+  text: สวัสดีชาวโลก!

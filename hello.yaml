@@ -1,0 +1,114 @@
+id: https://hello-linkml.mkbrechtel.dev/model/
+name: hello
+description: A schema for storing hello world messages in different languages
+
+prefixes:
+  linkml: https://w3id.org/linkml/
+  schema: http://schema.org/
+  iso639: http://id.loc.gov/vocabulary/iso639-1/
+  hello: https://hello-linkml.mkbrechtel.dev/model/
+
+imports:
+  - linkml:types
+
+classes:
+  Message:
+    attributes:
+      id:
+        identifier: true
+        description: Unique identifier for the message
+      text:
+        description: The hello world message text
+        required: true
+      language:
+        description: The language code (ISO 639-1)
+        range: LanguageCode
+        
+enums:
+  LanguageCode:
+    description: ISO 639-1 language codes
+    permissible_values:
+      ar:
+        description: Arabic
+        meaning: iso639:ar
+      bn:
+        description: Bengali
+        meaning: iso639:bn
+      zh:
+        description: Chinese
+        meaning: iso639:zh
+      cs:
+        description: Czech
+        meaning: iso639:cs
+      da:
+        description: Danish
+        meaning: iso639:da
+      nl:
+        description: Dutch
+        meaning: iso639:nl
+      en:
+        description: English
+        meaning: iso639:en
+      fi:
+        description: Finnish
+        meaning: iso639:fi
+      fr:
+        description: French
+        meaning: iso639:fr
+      de:
+        description: German
+        meaning: iso639:de
+      el:
+        description: Greek
+        meaning: iso639:el
+      hi:
+        description: Hindi
+        meaning: iso639:hi
+      hu:
+        description: Hungarian
+        meaning: iso639:hu
+      id:
+        description: Indonesian
+        meaning: iso639:id
+      ga:
+        description: Irish
+        meaning: iso639:ga
+      it:
+        description: Italian
+        meaning: iso639:it
+      ja:
+        description: Japanese
+        meaning: iso639:ja
+      ko:
+        description: Korean
+        meaning: iso639:ko
+      fa:
+        description: Persian
+        meaning: iso639:fa
+      pl:
+        description: Polish
+        meaning: iso639:pl
+      pt:
+        description: Portuguese
+        meaning: iso639:pt
+      ru:
+        description: Russian
+        meaning: iso639:ru
+      es:
+        description: Spanish
+        meaning: iso639:es
+      sv:
+        description: Swedish
+        meaning: iso639:sv
+      th:
+        description: Thai
+        meaning: iso639:th
+      tr:
+        description: Turkish
+        meaning: iso639:tr
+      uk:
+        description: Ukrainian
+        meaning: iso639:uk
+      vi:
+        description: Vietnamese
+        meaning: iso639:vi

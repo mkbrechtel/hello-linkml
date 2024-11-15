@@ -1,0 +1,68 @@
+{
+    "$defs": {
+        "LanguageCode": {
+            "description": "ISO 639-1 language codes",
+            "enum": [
+                "ar",
+                "bn",
+                "zh",
+                "cs",
+                "da",
+                "nl",
+                "en",
+                "fi",
+                "fr",
+                "de",
+                "el",
+                "hi",
+                "hu",
+                "id",
+                "ga",
+                "it",
+                "ja",
+                "ko",
+                "fa",
+                "pl",
+                "pt",
+                "ru",
+                "es",
+                "sv",
+                "th",
+                "tr",
+                "uk",
+                "vi"
+            ],
+            "title": "LanguageCode",
+            "type": "string"
+        },
+        "Message": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "id": {
+                    "description": "Unique identifier for the message"
+                },
+                "language": {
+                    "$ref": "#/$defs/LanguageCode",
+                    "description": "The language code (ISO 639-1)"
+                },
+                "text": {
+                    "description": "The hello world message text"
+                }
+            },
+            "required": [
+                "id",
+                "text"
+            ],
+            "title": "Message",
+            "type": "object"
+        }
+    },
+    "$id": "https://hello-linkml.mkbrechtel.dev/model/",
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "additionalProperties": true,
+    "metamodel_version": "1.7.0",
+    "title": "hello",
+    "type": "object",
+    "version": null
+}
